@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <Flex>
       <Heading bg="rgba(255,255,255,0.2)" w="50vw" color="white">
-        Ciccio Farro
+        Hello
       </Heading>
     </Flex>
   );

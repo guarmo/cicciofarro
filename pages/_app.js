@@ -4,29 +4,32 @@ import {
   Box,
   Heading,
   Flex,
+  Text,
 } from "@chakra-ui/react";
 import "../styles/globals.css";
-import Navbar from "../components/Navbar";
+import Test from "../components/Test";
 
 function MyApp({ Component, pageProps }) {
   return (
     <ChakraProvider>
       {/* Header */}
-      <Box minH="100vh" className="bg">
-        <Container maxW="container.xl">
-          <Flex
-            h="100vh"
-            flexDirection="column"
-            justifyContent="center"
-            alignItems="center"
-          >
-            <Navbar />
-          </Flex>
-          {/* <Heading color="white" m="auto">
-            Ciccio Farro
-          </Heading> */}
-        </Container>
-      </Box>
+      <Flex justifyContent="flex-end">
+        <Flex
+          className="pattern"
+          w="50%"
+          flexDirection="column"
+          justifyContent="center"
+          alignItems="center"
+          pl={4}
+        >
+          {/* <Heading as="h1" size="4xl">
+            ciccio farro
+          </Heading>
+          <Text>Music Producer & Collector</Text> */}
+          <Test />
+        </Flex>
+        <Box minH="100vh" className="bg"></Box>
+      </Flex>
       <Container maxW="container.xl">
         <Component {...pageProps} />
       </Container>

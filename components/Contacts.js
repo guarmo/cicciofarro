@@ -22,7 +22,9 @@ const Contacts = () => {
   return (
     /* Contacts */
     <Box my={10}>
-      <Heading>Contacts</Heading>
+      <div class="heading">
+        <Heading className="text">Contacts</Heading>
+      </div>
       <form>
         <FormControl id="name" isRequired>
           <FormLabel>Name</FormLabel>

@@ -1,10 +1,12 @@
-import { Box, Heading, Link, Grid, Image } from "@chakra-ui/react";
+import { Box, Heading, Link, Grid, Image, Flex } from "@chakra-ui/react";
 
 const What = () => {
   return (
     /* What */
     <Box my={10}>
-      <Heading>What</Heading>
+      <div class="heading">
+        <Heading className="text">What</Heading>
+      </div>
       <Grid
         templateColumns={{
           lg: "repeat(3, 1fr)",

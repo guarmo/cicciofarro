@@ -3,10 +3,12 @@ import { Box, Text, Heading, Image, Flex } from "@chakra-ui/react";
 const Bio = () => {
   return (
     /* Biografia */
-    <Box my={10}>
-      <Heading>Biografia</Heading>
+    <Flex minH="100vh" flexDirection="column" justifyContent="center" my={10}>
+      <div class="heading">
+        <Heading className="text">Biografia</Heading>
+      </div>
       <Flex flexDirection={{ md: "row", sm: "column" }} alignItems="center">
-        <Image mr="20px" h="400px" w="auto" src="/ciccio_bio.jpeg" />
+        <Image mr="20px" h="350px" w="350px" src="/ciccio_bio.jpeg" />
         <Text>
           Francesco Farro, (quasi) per tutti Ciccio, è un Producer e Sound
           Engineer, classe 94’. L’immensa passione per la musica e
@@ -34,7 +36,7 @@ const Bio = () => {
           si amalgano diversi generi cari a Ciccio.
         </Text>
       </Flex>
-    </Box>
+    </Flex>
   );
 };
 
