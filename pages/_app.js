@@ -1,35 +1,19 @@
-import {
-  ChakraProvider,
-  Container,
-  Box,
-  Heading,
-  Flex,
-} from "@chakra-ui/react";
+import { ChakraProvider, Container } from "@chakra-ui/react";
 import "../styles/globals.css";
-import Navbar from "../components/Navbar";
+
+import Header from "../components/Header";
+
+import LangState from "../context/lang/LangState";
 
 function MyApp({ Component, pageProps }) {
   return (
     <ChakraProvider>
-      {/* Header */}
-      <Box minH="100vh" className="bg">
+      <LangState>
+        <Header />
         <Container maxW="container.xl">
-          <Flex
-            h="100vh"
-            flexDirection="column"
-            justifyContent="center"
-            alignItems="center"
-          >
-            <Navbar />
-          </Flex>
-          {/* <Heading color="white" m="auto">
-            Ciccio Farro
-          </Heading> */}
+          <Component {...pageProps} />
         </Container>
-      </Box>
-      <Container maxW="container.xl">
-        <Component {...pageProps} />
-      </Container>
+      </LangState>
     </ChakraProvider>
   );
 }
