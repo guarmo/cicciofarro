@@ -1,10 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap");
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: #f0eee7 !important;
+  /* font-family: "Open Sans", sans-serif !important; */
+  font-family: "Montserrat", sans-serif !important;
 }
 
 a:hover {
@@ -15,12 +18,53 @@ a:hover {
   box-sizing: border-box;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.logo {
+  font-family: "Open Sans", sans-serif !important;
+  font-weight: bold;
+  font-size: 35px;
+  letter-spacing: -3px;
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+/* Main headings */
+.heading {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.heading:before,
+.heading:after {
+  content: "";
+  border-top: 2px solid;
+  margin: 0 20px 0 0;
+  flex: 1 0 20px;
+}
+
+.heading:after {
+  margin: 0 0 0 20px;
+}
+
 /* Full bg */
 .bg {
-  background-image: url("../public/main.jpg");
+  position: relative;
+  background-image: url("../public/main1.jpeg");
+  /* background-image: url("../public/main2.jpeg"); */
 
   height: 100%;
-  width: 60%;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -99,89 +143,7 @@ a:hover {
   background-color: #fbc125;
   background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%2378673b' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
 } */
-.pattern {
-  background-color: #fbc125;
+/* .pattern {
+  background-color: rgba(255, 255, 255, 0.04);
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%239d760a' fill-opacity='0.4'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E");
-}
-
-/* Line */
-
-.heading {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.heading .text {
-  background: #f0eee7;
-  margin: 0 15px;
-}
-.heading:before,
-.heading:after {
-  background: #fbc125;
-  height: 3px;
-  flex: 1;
-  content: "";
-}
-.heading.left:after {
-  background: none;
-}
-.heading.right:before {
-  background: none;
-}
-
-/* Test */
-.perspective-text {
-  color: white;
-  font-family: Arial;
-  font-size: 58px;
-  font-weight: 900;
-  letter-spacing: -2px;
-  text-transform: uppercase;
-  position: absolute;
-  left: 0%;
-}
-
-.perspective-line {
-  height: 50px;
-  overflow: hidden;
-  position: relative;
-}
-p {
-  margin: 0;
-  height: 50px;
-  line-height: 50px;
-  transition: all 0.5s ease-in-out;
-}
-.perspective-line:nth-child(odd) {
-  transform: skew(60deg, -30deg) scaleY(0.667);
-}
-.perspective-line:nth-child(even) {
-  transform: skew(0deg, -30deg) scaleY(1.333);
-}
-.perspective-line {
-  position: relative;
-}
-.perspective-line:hover p {
-  transform: translate(0, -50px);
-}
-.perspective-line:nth-child(1) {
-  left: 29px;
-}
-.perspective-line:nth-child(2) {
-  left: 58px;
-}
-.perspective-line:nth-child(3) {
-  left: 87px;
-}
-.perspective-line:nth-child(4) {
-  left: 116px;
-}
-.perspective-line:nth-child(5) {
-  left: 145px;
-}
-.perspective-line:hover p {
-  transform: translate(0, -50px);
-}
-p {
-  transition: all 0.5s ease-in-out;
-}
+} */

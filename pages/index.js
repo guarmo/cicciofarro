@@ -13,12 +13,6 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* Header */}
-      {/* <Box minH="100vh" className="bg">
-        <Heading color="white" m="auto">
-          Ciccio Farro
-        </Heading>
-      </Box> */}
 
       <Bio />
 

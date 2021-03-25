@@ -1,14 +1,16 @@
-import { Text, Link } from "@chakra-ui/react";
+import { Text, Link, Flex } from "@chakra-ui/react";
 
 const Footer = () => {
   return (
     /* Footer */
     <footer>
-      <Text>
-        <Link href="https://armandoguarino.dev" isExternal>
-          2021 &#169; Armando Guarino
-        </Link>
-      </Text>
+      <Flex justifyContent="center">
+        <Text>
+          <Link href="https://armandoguarino.dev" isExternal>
+            2021 &#169; Armando Guarino
+          </Link>
+        </Text>
+      </Flex>
     </footer>
   );
 };
