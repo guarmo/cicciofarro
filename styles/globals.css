@@ -36,6 +36,19 @@ h4 {
   font-weight: bold;
 }
 
+/* Full screen video */
+
+.fullScreenVideo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
 /* Main headings */
 .heading {
   display: flex;

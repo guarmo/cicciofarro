@@ -3,11 +3,10 @@ import { Box, Heading, Link, Grid, Image, Flex } from "@chakra-ui/react";
 
 import LangContext from "../context/lang/langContext";
 
-const What = () => {
+const Works = () => {
+  // Context
   const langContext = useContext(LangContext);
-
   const { lang, changeLang } = langContext;
-
   return (
     <Box>
       <Box className="heading" textAlign="center">
@@ -80,4 +79,4 @@ const What = () => {
   );
 };
 
-export default What;
+export default Works;
