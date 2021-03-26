@@ -91,14 +91,14 @@ const Contacts = () => {
     <Box mb={20}>
       <Box className="heading" textAlign="center">
         <Heading className="text" my={20}>
-          {lang.lang === "ita" ? "CONTATTI" : "CONTACTS"}
+          {lang === "ita" ? "CONTATTI" : "CONTACTS"}
         </Heading>
       </Box>
       <Flex flexDirection="column" justifyContent="center">
         <form onSubmit={(e) => onFormSubmit(e)}>
           <VStack spacing="20px">
             <FormControl id="name" isRequired>
-              <FormLabel> {lang.lang === "ita" ? "Nome" : "Name"}</FormLabel>
+              <FormLabel> {lang === "ita" ? "Nome" : "Name"}</FormLabel>
               <Input
                 type="text"
                 name="name"
@@ -120,10 +120,7 @@ const Contacts = () => {
             </FormControl>
 
             <FormControl id="message" isRequired>
-              <FormLabel>
-                {" "}
-                {lang.lang === "ita" ? "Messaggio" : "Message"}
-              </FormLabel>
+              <FormLabel> {lang === "ita" ? "Messaggio" : "Message"}</FormLabel>
               <Textarea
                 rows="6"
                 name="message"
@@ -131,7 +128,7 @@ const Contacts = () => {
                 onChange={onChange}
                 required
                 placeholder={
-                  lang.lang === "ita"
+                  lang === "ita"
                     ? "Lascia un messaggio qui..."
                     : "Enter a message here..."
                 }
@@ -146,7 +143,7 @@ const Contacts = () => {
               ml="50%"
               transform="translateX(-50%)"
             >
-              {lang.lang === "ita" ? "Invia" : "Send"}{" "}
+              {lang === "ita" ? "Invia" : "Send"}{" "}
             </Button>
           ) : (
             <Button
@@ -158,7 +155,7 @@ const Contacts = () => {
               ml="50%"
               transform="translateX(-50%)"
             >
-              {lang.lang === "ita" ? "Invia" : "Send"}{" "}
+              {lang === "ita" ? "Invia" : "Send"}{" "}
             </Button>
           )}
         </form>

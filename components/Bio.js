@@ -12,7 +12,7 @@ const Bio = () => {
     <Box>
       <Box className="heading" textAlign="center">
         <Heading className="text" my={20}>
-          {lang.lang === "ita" ? "BIOGRAFIA" : "BIOGRAPHY"}
+          {lang === "ita" ? "BIOGRAFIA" : "BIOGRAPHY"}
         </Heading>
       </Box>
       <Flex flexDirection="column" justifyContent="center">
@@ -24,7 +24,7 @@ const Bio = () => {
             w="350px"
             src="/ciccio_bio.jpeg"
           />
-          {lang.lang === "ita" ? (
+          {lang === "ita" ? (
             <Text>
               <span className="highlight">Francesco Farro</span>, (quasi) per
               tutti Ciccio, è un Producer e Sound Engineer, classe 94’.
