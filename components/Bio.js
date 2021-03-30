@@ -9,20 +9,21 @@ const Bio = () => {
 
   return (
     /* Biografia */
-    <Box>
-      <Box className="heading" textAlign="center">
-        <Heading className="text" my={20}>
+    <Flex flexDirection="column" justifyContent="center" minH="100vh">
+      <Box className="heading" my={20} textAlign="center">
+        <Heading className="text">
           {lang === "ita" ? "BIOGRAFIA" : "BIOGRAPHY"}
         </Heading>
       </Box>
       <Flex flexDirection="column" justifyContent="center">
-        <Flex flexDirection={{ md: "row", sm: "column" }} alignItems="center">
+        <Flex flexDirection={{ md: "row", base: "column" }} alignItems="center">
           <Image
             mr={{ md: 6, sm: 0 }}
             mb={{ md: 0, sm: 10 }}
             h="auto"
             w="350px"
             src="/ciccio_bio.jpeg"
+            mb={{ md: "0", base: "4" }}
           />
           {lang === "ita" ? (
             <Text>
@@ -89,7 +90,7 @@ const Bio = () => {
           )}
         </Flex>
       </Flex>
-    </Box>
+    </Flex>
   );
 };
 

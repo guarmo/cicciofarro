@@ -36,8 +36,15 @@ h4 {
   font-weight: bold;
 }
 
-/* Full screen video */
+/* Player */
 
+/* .react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
+
+/* Full screen video */
 .fullScreenVideo {
   position: fixed;
   top: 50%;
@@ -149,14 +156,3 @@ h4 {
 .fadeIn-left {
   left: 20%;
 }
-
-/* Pattern */
-
-/* .pattern {
-  background-color: #fbc125;
-  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%2378673b' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
-} */
-/* .pattern {
-  background-color: rgba(255, 255, 255, 0.04);
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%239d760a' fill-opacity='0.4'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E");
-} */

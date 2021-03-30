@@ -3,6 +3,7 @@ import { Text, Link, Box } from "@chakra-ui/react";
 
 import Bio from "../components/Bio";
 import Works from "../components/Works";
+import Tracks from "../components/Tracks";
 import Contacts from "../components/Contacts";
 import Footer from "../components/Footer";
 
@@ -21,6 +22,8 @@ export default function Home() {
       <Bio />
 
       <Works />
+
+      <Tracks />
 
       <Contacts />
 

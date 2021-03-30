@@ -23,7 +23,6 @@ const LangState = (props) => {
 
   //   Show modal
   const showModal = (url) => {
-    alert(url);
     dispatch({
       type: SHOW_MODAL,
       payload: url,
@@ -31,8 +30,7 @@ const LangState = (props) => {
   };
 
   //   Hide modal
-  const hideModal = (url) => {
-    alert(url);
+  const hideModal = () => {
     dispatch({
       type: HIDE_MODAL,
     });

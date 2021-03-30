@@ -1,12 +1,12 @@
 import React, { useContext } from "react";
-import { Container, Box, Flex, Image, Text } from "@chakra-ui/react";
+import { Container, Box, Flex, Image, Text, Button } from "@chakra-ui/react";
 
 import LangContext from "../context/lang/langContext";
 
 const Header = () => {
   const langContext = useContext(LangContext);
 
-  const { changeLang } = langContext;
+  const { changeLang, lang } = langContext;
 
   return (
     <Box minH="100vh" className="bg">
@@ -18,23 +18,23 @@ const Header = () => {
               <Text>Producer & Sound Engineer</Text>
             </Box>
             <Flex>
-              <Image
-                src="./italy.png"
-                alt=""
-                width="25px"
-                height="25px"
-                cursor="pointer"
+              <Button
+                variant="link"
+                size="xs"
+                textDecoration={lang === "ita" ? "underline" : "none"}
                 onClick={() => changeLang("ita")}
-              />
-              <Image
-                src="./united-states.png"
-                alt=""
-                width="25px"
-                height="25px"
-                ml={2}
-                cursor="pointer"
+              >
+                ITA
+              </Button>
+              <Button
+                ml={1}
+                variant="link"
+                size="xs"
+                textDecoration={lang === "eng" ? "underline" : "none"}
                 onClick={() => changeLang("eng")}
-              />
+              >
+                ENG
+              </Button>
             </Flex>
           </Flex>
         </Container>
