@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { Box, Text, Heading, Image, Flex } from "@chakra-ui/react";
+
 import LangContext from "../context/lang/langContext";
 
 const Bio = () => {
@@ -9,7 +10,7 @@ const Bio = () => {
 
   return (
     /* Biografia */
-    <Flex flexDirection="column" justifyContent="center" minH="100vh">
+    <Flex flexDirection="column" justifyContent="center">
       <Box className="heading" my={20} textAlign="center">
         <Heading className="text">
           {lang === "ita" ? "BIOGRAFIA" : "BIOGRAPHY"}
@@ -20,6 +21,7 @@ const Bio = () => {
           <Image
             mr={{ md: 6, sm: 0 }}
             mb={{ md: 0, sm: 10 }}
+            minH="350px"
             h="auto"
             w="350px"
             src="/ciccio_bio.jpeg"

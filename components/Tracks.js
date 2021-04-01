@@ -15,20 +15,23 @@ const Tracks = () => {
           {lang === "ita" ? "TRACCE" : "TRACKS"}
         </Heading>
       </Box>
-      {/* <Flex border="2px solid red" alignItems="center"> */}
-      <Box ml="50%" transform="translateX(-50%)">
-        <ReactPlayer
-          height="100px"
-          url="https://soundcloud.com/neom-2/ciccio-fawav"
-        />
-      </Box>
-      <Box mt={10} ml="50%" transform="translateX(-50%)">
-        <ReactPlayer
-          height="100px"
-          url="https://soundcloud.com/altritaliamusic/altritalia"
-        />
-      </Box>
-      {/* </Flex> */}
+      <Flex flexDirection="column" alignItems="center">
+        <Box>
+          <ReactPlayer
+            mr={{ md: 6, sm: 0 }}
+            width="60vw"
+            height="100px"
+            url="https://soundcloud.com/neom-2/ciccio-fawav"
+          />
+        </Box>
+        <Box mt={10}>
+          <ReactPlayer
+            width="60vw"
+            height="100px"
+            url="https://soundcloud.com/altritaliamusic/altritalia"
+          />
+        </Box>
+      </Flex>
     </Box>
   );
 };

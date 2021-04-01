@@ -38,7 +38,7 @@ const FullScreenVideo = () => {
       display={modal ? "flex" : "none"}
     >
       <div ref={node}>
-        <ReactPlayer url={modalURL} />
+        <ReactPlayer width="80vw" height="80vh" url={modalURL} />
       </div>
     </Flex>
   );

@@ -142,6 +142,7 @@ const Contacts = () => {
               variant="outline"
               type="submit"
               my={6}
+              _hover={{ bg: "rgba(0, 0, 0, 0.1)" }}
               colorScheme="black"
               ml="50%"
               transform="translateX(-50%)"

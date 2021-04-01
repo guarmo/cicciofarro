@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { Container, Box, Flex, Image, Text, Button } from "@chakra-ui/react";
+import { Container, Box, Flex, Text, Button } from "@chakra-ui/react";
 
 import LangContext from "../context/lang/langContext";
 

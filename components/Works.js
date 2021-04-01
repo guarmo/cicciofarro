@@ -9,8 +9,8 @@ const Works = () => {
   const { lang, showModal } = langContext;
 
   return (
-    <Flex minH="100vh" flexDirection="column" justifyContent="center">
-      <Box className="heading" mb={20} textAlign="center">
+    <Flex flexDirection="column" justifyContent="center">
+      <Box className="heading" my={20} textAlign="center">
         <Heading className="text">
           {lang === "ita" ? "LAVORI" : "WORKS"}
         </Heading>

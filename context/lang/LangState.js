@@ -1,5 +1,5 @@
 import React, { useReducer } from "react";
-import LangContext from "./langContext";
+import langContext from "./langContext";
 import langReducer from "./langReducer";
 
 import { CHANGE_LANG, SHOW_MODAL, HIDE_MODAL } from "../types";
@@ -37,7 +37,7 @@ const LangState = (props) => {
   };
 
   return (
-    <LangContext.Provider
+    <langContext.Provider
       value={{
         lang: state.lang,
         modal: state.modal,
@@ -48,7 +48,7 @@ const LangState = (props) => {
       }}
     >
       {props.children}
-    </LangContext.Provider>
+    </langContext.Provider>
   );
 };
 
