@@ -23,13 +23,14 @@ import {
   AiOutlineLinkedin,
 } from "react-icons/ai";
 import { RiSoundcloudLine } from "react-icons/ri";
+import { IoIosSend } from "react-icons/io";
 
 import emailjs from "emailjs-com";
 
 const Contacts = () => {
   const langContext = useContext(LangContext);
 
-  const { lang, changeLang } = langContext;
+  const { lang } = langContext;
 
   const [sendEmail, setSendEmail] = useState({
     name: "",
@@ -52,10 +53,10 @@ const Contacts = () => {
 
     await emailjs
       .send(
-        // "service_f0yxx3l",
-        // "template_ac2n19y",
-        sendEmail
-        // "user_mFKy74qndZlfDQh6mnohG"
+        "service_f0yxx3l",
+        "template_ac2n19y",
+        sendEmail,
+        "user_mFKy74qndZlfDQh6mnohG"
       )
       .then(
         (response) => {
@@ -91,14 +92,14 @@ const Contacts = () => {
     <Box mb={20}>
       <Box className="heading" textAlign="center">
         <Heading className="text" my={20}>
-          {lang.lang === "ita" ? "CONTATTI" : "CONTACTS"}
+          {lang === "ita" ? "CONTATTI" : "CONTACTS"}
         </Heading>
       </Box>
       <Flex flexDirection="column" justifyContent="center">
         <form onSubmit={(e) => onFormSubmit(e)}>
           <VStack spacing="20px">
             <FormControl id="name" isRequired>
-              <FormLabel> {lang.lang === "ita" ? "Nome" : "Name"}</FormLabel>
+              <FormLabel> {lang === "ita" ? "Nome" : "Name"}</FormLabel>
               <Input
                 type="text"
                 name="name"
@@ -120,10 +121,7 @@ const Contacts = () => {
             </FormControl>
 
             <FormControl id="message" isRequired>
-              <FormLabel>
-                {" "}
-                {lang.lang === "ita" ? "Messaggio" : "Message"}
-              </FormLabel>
+              <FormLabel> {lang === "ita" ? "Messaggio" : "Message"}</FormLabel>
               <Textarea
                 rows="6"
                 name="message"
@@ -131,7 +129,7 @@ const Contacts = () => {
                 onChange={onChange}
                 required
                 placeholder={
-                  lang.lang === "ita"
+                  lang === "ita"
                     ? "Lascia un messaggio qui..."
                     : "Enter a message here..."
                 }
@@ -141,24 +139,29 @@ const Contacts = () => {
 
           {!loading ? (
             <Button
+              variant="outline"
+              type="submit"
               my={6}
-              colorScheme="teal"
+              _hover={{ bg: "rgba(0, 0, 0, 0.1)" }}
+              colorScheme="black"
               ml="50%"
               transform="translateX(-50%)"
             >
-              {lang.lang === "ita" ? "Invia" : "Send"}{" "}
+              {lang === "ita" ? "Invia" : "Send"}{" "}
             </Button>
           ) : (
             <Button
+              type="submit"
               my={6}
-              colorScheme="teal"
+              variant="outline"
+              colorScheme="black"
               isLoading
               rightIcon={<IoIosSend />}
               backgroundColor="#00838d"
               ml="50%"
               transform="translateX(-50%)"
             >
-              {lang.lang === "ita" ? "Invia" : "Send"}{" "}
+              {lang === "ita" ? "Invia" : "Send"}{" "}
             </Button>
           )}
         </form>
@@ -168,35 +171,35 @@ const Contacts = () => {
             <Link href="https://www.instagram.com/cicciofarro/" isExternal>
               <Icon
                 transition="all .2s ease-in-out"
-                _hover={{ transform: "scale(1.2)", color: "#00838d" }}
-                w={14}
-                h={14}
+                _hover={{ transform: "scale(1.2)", color: "gray" }}
+                w={12}
+                h={12}
                 as={AiOutlineInstagram}
               />
             </Link>
             <Link
               transition="all .2s ease-in-out"
-              _hover={{ transform: "scale(1.2)", color: "#00838d" }}
+              _hover={{ transform: "scale(1.2)", color: "gray" }}
               href="https://www.facebook.com/Ciccio-Fà-nk-333175224140553 "
               isExternal
             >
-              <Icon w={14} h={14} as={AiOutlineFacebook} />
+              <Icon w={12} h={12} as={AiOutlineFacebook} />
             </Link>
             <Link
               transition="all .2s ease-in-out"
-              _hover={{ transform: "scale(1.2)", color: "#00838d" }}
+              _hover={{ transform: "scale(1.2)", color: "gray" }}
               href="https://www.linkedin.com/in/francesco-farro-b4b04b79/ "
               isExternal
             >
-              <Icon w={14} h={14} as={AiOutlineLinkedin} />
+              <Icon w={12} h={12} as={AiOutlineLinkedin} />
             </Link>
             <Link
               transition="all .2s ease-in-out"
-              _hover={{ transform: "scale(1.2)", color: "#00838d" }}
+              _hover={{ transform: "scale(1.2)", color: "gray" }}
               href="https://soundcloud.com/neom-2"
               isExternal
             >
-              <Icon w={14} h={14} as={RiSoundcloudLine} />
+              <Icon w={12} h={12} as={RiSoundcloudLine} />
             </Link>
           </HStack>
         </Flex>

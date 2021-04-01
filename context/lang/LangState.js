@@ -1,12 +1,14 @@
 import React, { useReducer } from "react";
-import LangContext from "./langContext";
+import langContext from "./langContext";
 import langReducer from "./langReducer";
 
-import { CHANGE_LANG } from "../types";
+import { CHANGE_LANG, SHOW_MODAL, HIDE_MODAL } from "../types";
 
 const LangState = (props) => {
   const initialState = {
     lang: "ita",
+    modal: false,
+    modalURL: null,
   };
 
   const [state, dispatch] = useReducer(langReducer, initialState);
@@ -19,15 +21,34 @@ const LangState = (props) => {
     });
   };
 
+  //   Show modal
+  const showModal = (url) => {
+    dispatch({
+      type: SHOW_MODAL,
+      payload: url,
+    });
+  };
+
+  //   Hide modal
+  const hideModal = () => {
+    dispatch({
+      type: HIDE_MODAL,
+    });
+  };
+
   return (
-    <LangContext.Provider
+    <langContext.Provider
       value={{
-        lang: state,
+        lang: state.lang,
+        modal: state.modal,
+        modalURL: state.modalURL,
         changeLang,
+        showModal,
+        hideModal,
       }}
     >
       {props.children}
-    </LangContext.Provider>
+    </langContext.Provider>
   );
 };
 

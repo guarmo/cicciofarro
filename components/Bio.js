@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { Box, Text, Heading, Image, Flex } from "@chakra-ui/react";
+
 import LangContext from "../context/lang/langContext";
 
 const Bio = () => {
@@ -9,22 +10,24 @@ const Bio = () => {
 
   return (
     /* Biografia */
-    <Box>
-      <Box className="heading" textAlign="center">
-        <Heading className="text" my={20}>
-          {lang.lang === "ita" ? "BIOGRAFIA" : "BIOGRAPHY"}
+    <Flex flexDirection="column" justifyContent="center">
+      <Box className="heading" my={20} textAlign="center">
+        <Heading className="text">
+          {lang === "ita" ? "BIOGRAFIA" : "BIOGRAPHY"}
         </Heading>
       </Box>
       <Flex flexDirection="column" justifyContent="center">
-        <Flex flexDirection={{ md: "row", sm: "column" }} alignItems="center">
+        <Flex flexDirection={{ md: "row", base: "column" }} alignItems="center">
           <Image
             mr={{ md: 6, sm: 0 }}
             mb={{ md: 0, sm: 10 }}
+            minH="350px"
             h="auto"
             w="350px"
             src="/ciccio_bio.jpeg"
+            mb={{ md: "0", base: "4" }}
           />
-          {lang.lang === "ita" ? (
+          {lang === "ita" ? (
             <Text>
               <span className="highlight">Francesco Farro</span>, (quasi) per
               tutti Ciccio, è un Producer e Sound Engineer, classe 94’.
@@ -89,7 +92,7 @@ const Bio = () => {
           )}
         </Flex>
       </Flex>
-    </Box>
+    </Flex>
   );
 };
 

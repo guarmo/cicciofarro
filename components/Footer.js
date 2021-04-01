@@ -2,7 +2,6 @@ import { Text, Link, Flex } from "@chakra-ui/react";
 
 const Footer = () => {
   return (
-    /* Footer */
     <footer>
       <Flex justifyContent="center">
         <Text>
