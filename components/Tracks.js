@@ -18,16 +18,13 @@ const Tracks = () => {
       <Flex flexDirection="column" alignItems="center">
         <Box>
           <ReactPlayer
-            mr={{ md: 6, sm: 0 }}
-            width="60vw"
-            height="100px"
+            className="player"
             url="https://soundcloud.com/neom-2/ciccio-fawav"
           />
         </Box>
         <Box mt={10}>
           <ReactPlayer
-            width="60vw"
-            height="100px"
+            className="player"
             url="https://soundcloud.com/altritaliamusic/altritalia"
           />
         </Box>

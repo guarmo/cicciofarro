@@ -15,7 +15,7 @@ const Works = () => {
           {lang === "ita" ? "LAVORI" : "WORKS"}
         </Heading>
       </Box>
-      <Flex flexDirection="column" justifyContent="center">
+      <Box>
         <Grid
           templateColumns={{
             lg: "repeat(3, 1fr)",
@@ -87,7 +87,7 @@ const Works = () => {
             </div>
           </Box>
         </Grid>
-      </Flex>
+      </Box>
     </Flex>
   );
 };
