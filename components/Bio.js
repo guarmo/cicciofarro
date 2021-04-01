@@ -16,7 +16,7 @@ const Bio = () => {
           {lang === "ita" ? "BIOGRAFIA" : "BIOGRAPHY"}
         </Heading>
       </Box>
-      <Flex flexDirection="column" justifyContent="center">
+      <Flex flexDirection="column" justifyContent="center" textAlign="center">
         <Flex flexDirection={{ md: "row", base: "column" }} alignItems="center">
           <Image
             mr={{ md: 6, sm: 0 }}
