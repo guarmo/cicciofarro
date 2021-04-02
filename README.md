@@ -1,10 +1,9 @@
 # cicciofarro.com
 
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
-![GitHub repo size](https://img.shields.io/github/repo-size/guarmo/cicciofarro) https://github.com/guarmo/cicciofarro
+![GitHub repo size](https://img.shields.io/github/repo-size/guarmo/cicciofarro)
 ![GitHub contributors](https://img.shields.io/github/contributors/guarmo/cicciofarro)
 ![GitHub stars](https://img.shields.io/github/stars/guarmo/cicciofarro?style=social)
-![GitHub forks](https://img.shields.io/github/forks/scottydocs/guarmo/cicciofarro?style=social)
 ![Twitter Follow](https://img.shields.io/twitter/follow/_guarmo?style=social)
 
 Project name is a `<utility/tool/feature>` that allows `<insert_target_audience>` to do `<action/task_it_does>`.
