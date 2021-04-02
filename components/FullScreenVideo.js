@@ -1,8 +1,10 @@
 import { useContext, useState, useRef, useEffect } from "react";
-import { Flex } from "@chakra-ui/react";
+import { Flex, Box, Icon } from "@chakra-ui/react";
 import ReactPlayer from "react-player";
 
 import LangContext from "../context/lang/langContext";
+
+import { AiOutlineCloseSquare, AiOutlineClose } from "react-icons/ai";
 
 const FullScreenVideo = () => {
   // Context
@@ -37,9 +39,18 @@ const FullScreenVideo = () => {
       className="fullScreenVideo"
       display={modal ? "flex" : "none"}
     >
-      <div ref={node}>
-        <ReactPlayer width="80vw" height="80vh" url={modalURL} />
-      </div>
+      <Box position="absolute" ref={node}>
+        <Box
+          className="close-icon"
+          color="white"
+          position="relative"
+          top={0}
+          right={0}
+        >
+          <Icon cursor="pointer" w={8} h={8} as={AiOutlineCloseSquare} />
+        </Box>
+        <ReactPlayer width="80vw" height="80vh" url={modalURL} controls />
+      </Box>
     </Flex>
   );
 };
