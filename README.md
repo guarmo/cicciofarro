@@ -1,4 +1,4 @@
-# <a href="https://cicciofarro.com" target="_blank">cicciofarro.com</a>
+# cicciofarro.com
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/guarmo/cicciofarro)
 ![GitHub contributors](https://img.shields.io/github/contributors/guarmo/cicciofarro)
