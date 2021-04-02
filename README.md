@@ -1,4 +1,4 @@
-# cicciofarro.com
+# [cicciofarro.com](https://cicciofarro.com)
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/guarmo/cicciofarro)
 ![GitHub contributors](https://img.shields.io/github/contributors/guarmo/cicciofarro)
