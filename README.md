@@ -12,7 +12,7 @@ This is a personal page developed for Berlin-based music producer and sound engi
 It was developed with the following tools:
 <ul>
   <li>NextJS</li>
-  <li>https://chakra-ui.com/</li>
+  <li>Chakra-ui</li>
   <li>EmailJS</li>
   <li>React-icons</li>
   <li>React-player</li>
