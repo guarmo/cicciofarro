@@ -1,12 +1,11 @@
 # cicciofarro.com
 
-![Screenshot](Screenshot.png)
-
-<!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
 ![GitHub repo size](https://img.shields.io/github/repo-size/guarmo/cicciofarro)
 ![GitHub contributors](https://img.shields.io/github/contributors/guarmo/cicciofarro)
 ![GitHub stars](https://img.shields.io/github/stars/guarmo/cicciofarro?style=social)
 ![Twitter Follow](https://img.shields.io/twitter/follow/_guarmo?style=social)
+
+![Screenshot](Screenshot.png)
 
 This is a personal page developed for Berlin-based music producer and sound engineer Francesco Farro. 
 It was developed with the following tools:
