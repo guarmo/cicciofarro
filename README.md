@@ -9,23 +9,14 @@
 This is a personal page developed for Berlin-based music producer and sound engineer Francesco Farro. 
 It was developed with the following tools:
 <ul>
-  <li>[@guarmo](https://github.com/guarmo)</li>
-  <li>[NextJS](https://nextjs.org/)</li>
-  <li>[Chakra-ui](https://chakra-ui.com/)</li>
+  [NextJS](https://nextjs.org/)
+  [Chakra-ui](https://chakra-ui.com/)
   <li>[EmailJS](https://www.emailjs.com/)</li>
   <li>[React-icons](https://react-icons.github.io/react-icons/)</li>
   <li>[React-player](https://www.npmjs.com/package/react-player)</li>
   </ul>
 
-## Prerequisites
-
-Before you begin, ensure you have met the following requirements:
-<!--- These are just example requirements. Add, duplicate or remove as required --->
-* You have installed the latest version of `<coding_language/dependency/requirement_1>`
-* You have a `<Windows/Linux/Mac>` machine. State which OS is supported/which is not.
-* You have read `<guide/link/documentation_related_to_project>`.
-
-## Installing <project_name>
+## Installing cicciofarro.com
 
 To install cicciofarro.com, follow these steps:
 
