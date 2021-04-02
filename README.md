@@ -9,6 +9,7 @@
 This is a personal page developed for Berlin-based music producer and sound engineer Francesco Farro. 
 It was developed with the following tools:
 <ul>
+  <li>[@guarmo](https://github.com/guarmo)</li>
   <li>[NextJS](https://nextjs.org/)</li>
   <li>[Chakra-ui](https://chakra-ui.com/)</li>
   <li>[EmailJS](https://www.emailjs.com/)</li>
