@@ -1,5 +1,7 @@
 # cicciofarro.com
 
+![Screenshot](Screenshot.png)
+
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
 ![GitHub repo size](https://img.shields.io/github/repo-size/guarmo/cicciofarro)
 ![GitHub contributors](https://img.shields.io/github/contributors/guarmo/cicciofarro)
@@ -9,11 +11,11 @@
 This is a personal page developed for Berlin-based music producer and sound engineer Francesco Farro. 
 It was developed with the following tools:
 <ul>
-  [NextJS](https://nextjs.org/)
-  [Chakra-ui](https://chakra-ui.com/)
-  <li>[EmailJS](https://www.emailjs.com/)</li>
-  <li>[React-icons](https://react-icons.github.io/react-icons/)</li>
-  <li>[React-player](https://www.npmjs.com/package/react-player)</li>
+  <li>NextJS</li>
+  <li>https://chakra-ui.com/</li>
+  <li>EmailJS</li>
+  <li>React-icons</li>
+  <li>React-player</li>
   </ul>
 
 ## Installing cicciofarro.com
