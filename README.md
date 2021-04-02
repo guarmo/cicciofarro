@@ -8,11 +8,13 @@
 
 This is a personal page developed for Berlin-based music producer and sound engineer Francesco Farro. 
 It was developed with the following tools:
-[NextJS](https://nextjs.org/)
-[Chakra-ui](https://chakra-ui.com/)
-[EmailJS](https://www.emailjs.com/)
-[React-icons](https://react-icons.github.io/react-icons/)
-[React-player](https://www.npmjs.com/package/react-player)
+<ul>
+  <li>[NextJS](https://nextjs.org/)</li>
+  <li>[Chakra-ui](https://chakra-ui.com/)</li>
+  <li>[EmailJS](https://www.emailjs.com/)</li>
+  <li>[React-icons](https://react-icons.github.io/react-icons/)</li>
+  <li>[React-player](https://www.npmjs.com/package/react-player)</li>
+  </ul>
 
 ## Prerequisites
 
@@ -36,7 +38,7 @@ Windows:
 npm install
 ```
 
-## Contributing to <project_name>
+## Contributing to cicciofarro.com
 <!--- If your README is long or you have some specific process or steps you want contributors to follow, consider creating a separate CONTRIBUTING.md file--->
 To contribute to <project_name>, follow these steps:
 
