@@ -13,7 +13,7 @@ export default function Home() {
     <Box position="relative">
       <Head>
         <title>Ciccio Farro | Producer & Sound Engineer</title>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta name="description" content="Ciccio Farro's personal page." />
         <meta name="keywords" content="Ciccio Farro, Francesco Farro, Farro" />
         <meta name="author" content="Armando Guarino" />
