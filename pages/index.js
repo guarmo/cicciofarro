@@ -17,6 +17,10 @@ export default function Home() {
         <meta name="description" content="Ciccio Farro's personal page." />
         <meta name="keywords" content="Ciccio Farro, Francesco Farro, Farro" />
         <meta name="author" content="Armando Guarino" />
+        <meta
+          name="google-site-verification"
+          content="R0_sVXf_0GCtADNBjRSxqebWsQEAhxwwvZ1mepaajHc"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
           rel="apple-touch-icon"
