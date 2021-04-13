@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <Box minH="100vh" className="bg">
-      <Box position="relative" background="white" py="14">
+      <Box position="relative" background="white" py="10">
         <Container maxW="container.xl">
           <Flex justifyContent="space-between" alignItems="center">
             <Box>

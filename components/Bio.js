@@ -21,10 +21,14 @@ const Bio = () => {
           <Image
             mr={{ md: 6, sm: 0 }}
             mb={{ md: 0, sm: 10 }}
-            minH="350px"
+            // minH="250px"
+            // h="auto"
+            // w="250px"
+            w="450px"
             h="auto"
-            w="350px"
-            src="/ciccio_bio.jpeg"
+            // src="/ciccio_bio.jpeg"
+            // src="/main.jpeg"
+            src="/bio.jpg"
             mb={{ md: "0", base: "4" }}
           />
           {lang === "ita" ? (

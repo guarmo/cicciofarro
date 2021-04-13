@@ -68,8 +68,9 @@ h4 {
 /* Full bg img */
 .bg {
   position: relative;
-  background-image: url("../public/main1.jpeg");
-  /* background-image: url("../public/main2.jpeg"); */
+  /* background-image: url("../public/main1.jpeg"); */
+  /* background-image: url("../public/main-v2.jpeg"); */
+  background-image: url("../public/main.jpg");
 
   height: 100%;
   width: 100%;

@@ -39,29 +39,7 @@ const Works = () => {
             />
             <div className="content-details fadeIn-left">
               <h3>SAVING SERAFINO - Gin Tonic</h3>
-              <p>Recording Engineeer</p>
-            </div>
-          </Box>
-
-          <Box
-            cursor="pointer"
-            className="content"
-            onClick={() =>
-              showModal("https://www.youtube.com/watch?v=fZJ1nAD9we4")
-            }
-          >
-            <div className="content-overlay"></div>
-            <Image
-              minH="300px"
-              maxH="100%"
-              minW="100%"
-              objectFit="cover"
-              className="content-image"
-              src="/Sranovski.png"
-            />
-            <div className="content-details fadeIn-left">
-              <h3>STANOVSKY - Greece x Athen (Cover)</h3>
-              <p>Mixing and Post producing</p>
+              <p>Rec Engineer</p>
             </div>
           </Box>
 
@@ -83,7 +61,29 @@ const Works = () => {
             />
             <div className="content-details fadeIn-left">
               <h3>Pier Paolo Bertoli - Brucia</h3>
-              <p>Recording Engineeer</p>
+              <p>Mixing and Post producing</p>
+            </div>
+          </Box>
+
+          <Box
+            cursor="pointer"
+            className="content"
+            onClick={() =>
+              showModal("https://www.youtube.com/watch?v=fZJ1nAD9we4")
+            }
+          >
+            <div className="content-overlay"></div>
+            <Image
+              minH="300px"
+              maxH="100%"
+              minW="100%"
+              objectFit="cover"
+              className="content-image"
+              src="/Sranovski.png"
+            />
+            <div className="content-details fadeIn-left">
+              <h3>STANOVSKY - Greece x Athen (Cover)</h3>
+              <p>Rec Engineer</p>
             </div>
           </Box>
         </Grid>
