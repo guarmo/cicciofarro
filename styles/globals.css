@@ -68,9 +68,7 @@ h4 {
 /* Full bg img */
 .bg {
   position: relative;
-  /* background-image: url("../public/main1.jpeg"); */
-  /* background-image: url("../public/main-v2.jpeg"); */
-  background-image: url("../public/main.jpg");
+  background-image: url("https://images.pexels.com/photos/7505463/pexels-photo-7505463.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 
   height: 100%;
   width: 100%;
