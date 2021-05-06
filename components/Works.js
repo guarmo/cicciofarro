@@ -39,7 +39,7 @@ const Works = () => {
             />
             <div className="content-details fadeIn-left">
               <h3>Occhiali da vista - Claudio Melis</h3>
-              <p>Mixing and Post producing</p>
+              <p>Rec and Mix Engineer</p>
             </div>
           </Box>
 
@@ -57,7 +57,7 @@ const Works = () => {
               src="/GinTonic.png"
             />
             <div className="content-details fadeIn-left">
-              <h3>SAVING SERAFINO - Gin Tonic</h3>
+              <h3>Saving Serafino - Gin Tonic</h3>
               <p>Rec Engineer</p>
             </div>
           </Box>
@@ -80,7 +80,7 @@ const Works = () => {
             />
             <div className="content-details fadeIn-left">
               <h3>Pier Paolo Bertoli - Brucia</h3>
-              <p>Mixing and Post producing</p>
+              <p>Mixing and Post Producing</p>
             </div>
           </Box>
 
@@ -101,7 +101,7 @@ const Works = () => {
               src="/Sranovski.png"
             />
             <div className="content-details fadeIn-left">
-              <h3>STANOVSKY - Greece x Athen (Cover)</h3>
+              <h3>Stanovsky - Greece x Athen (Cover)</h3>
               <p>Rec Engineer</p>
             </div>
           </Box>
