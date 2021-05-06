@@ -18,12 +18,31 @@ const Works = () => {
       <Box>
         <Grid
           templateColumns={{
-            lg: "repeat(3, 1fr)",
+            // lg: "repeat(3, 1fr)",
             md: "repeat(2, 1fr)",
             sm: "repeat(1, 1fr)",
           }}
           gap={6}
         >
+          <Box
+            cursor="pointer"
+            className="content"
+            onClick={() =>
+              showModal("https://www.youtube.com/watch?v=iMMngdp2Gto")
+            }
+          >
+            <div className="content-overlay"></div>
+            <Image
+              objectFit="cover"
+              className="content-image"
+              src="/OcchialiDaVista.png"
+            />
+            <div className="content-details fadeIn-left">
+              <h3>Occhiali da vista - Claudio Melis</h3>
+              <p>Mixing and Post producing</p>
+            </div>
+          </Box>
+
           <Box
             cursor="pointer"
             className="content"
