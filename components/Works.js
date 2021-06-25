@@ -39,7 +39,7 @@ const Works = () => {
             />
             <div className="content-details fadeIn-left">
               <h3>YABA يابا</h3>
-              <p>Rec and Mix Engineer</p>
+              <p>Rec Engineer & Mix Assistant</p>
             </div>
           </Box>
 
