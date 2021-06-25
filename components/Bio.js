@@ -55,7 +55,7 @@ const Bio = () => {
               . Subito dopo gli studi, Ciccio si ritrova ad intraprendere
               diverse Internships e a ricoprire diversi ruoli (Rec Eng, Mix
               assistant, Producer, Arranger etc.) in diversi studi d’Europa
-              (Bewake Berlin, Schwerkraftmusik, Laboratori Testone Milan etc.)
+              (Bewake Berlin, Schwerkraftmusik, Laboratori Testone Milan (con Tommaso Colliva) etc.)
               entrando in contatto con Inegneri, Musicisti e Produzioni di
               elevato profilo. Parallelamente da freelancer e in veste di
               Recording/Mixing Engineer e Producer collabora con diversi gruppi,
@@ -89,7 +89,7 @@ const Bio = () => {
               . Right after his studies, Ciccio takes on various Internships and
               works as (Rec Eng, Mix assistant, Producer, Arranger etc.) in
               different studios across Europe (Bewake Berlin, Schwerkraftmusik,
-              Laboratori Testone Milan etc.) giving him the chance to get in
+              Laboratori Testone Milan (with Tommaso Colliva) etc.) giving him the chance to get in
               touch with high-profile Engineers, Musicians and Productions . At
               the same time as a freelancer, Recording/Mixing Engineer, and
               Producer collaborates on various projects, groups, and Labels.
