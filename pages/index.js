@@ -3,7 +3,6 @@ import { Box } from "@chakra-ui/react";
 
 import Bio from "../components/Bio";
 import Works from "../components/Works";
-import Tracks from "../components/Tracks";
 import Contacts from "../components/Contacts";
 import Footer from "../components/Footer";
 
@@ -14,6 +13,15 @@ export default function Home() {
     <Box position="relative">
       <Head>
         <title>Ciccio Farro | Producer & Sound Engineer</title>
+        <meta charSet="UTF-8" />
+        <meta name="description" content="Ciccio Farro's personal page." />
+        <meta name="keywords" content="Ciccio Farro, Francesco Farro, Farro" />
+        <meta name="author" content="Armando Guarino" />
+        <meta
+          name="google-site-verification"
+          content="R0_sVXf_0GCtADNBjRSxqebWsQEAhxwwvZ1mepaajHc"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
           rel="apple-touch-icon"
           sizes="120x120"
@@ -36,7 +44,7 @@ export default function Home() {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
 
-        {/* <meta property="og:url" content="your url" /> */}
+        <meta property="og:url" content="https://www.cicciofarro.com" />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
@@ -58,8 +66,6 @@ export default function Home() {
       <Bio />
 
       <Works />
-
-      <Tracks />
 
       <Contacts />
 

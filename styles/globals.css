@@ -66,17 +66,15 @@ h4 {
 }
 
 /* Full bg img */
-.bg {
+/* .bg {
   position: relative;
-  background-image: url("../public/main1.jpeg");
-  /* background-image: url("../public/main2.jpeg"); */
-
+  background-image: url("https://images.pexels.com/photos/7505463/pexels-photo-7505463.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   height: 100%;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 /* Full screen video */
 .fullScreenVideo {

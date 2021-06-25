@@ -18,12 +18,50 @@ const Works = () => {
       <Box>
         <Grid
           templateColumns={{
-            lg: "repeat(3, 1fr)",
+            // lg: "repeat(3, 1fr)",
             md: "repeat(2, 1fr)",
             sm: "repeat(1, 1fr)",
           }}
           gap={6}
         >
+          <Box
+            cursor="pointer"
+            className="content"
+            onClick={() =>
+              showModal("https://www.youtube.com/watch?v=GVOienO5EMI&ab_channel=Jamila%26TheOtherHeroes-Topic")
+            }
+          >
+            <div className="content-overlay"></div>
+            <Image
+              objectFit="cover"
+              className="content-image"
+              src="/Yaba.png"
+            />
+            <div className="content-details fadeIn-left">
+              <h3>YABA يابا</h3>
+              <p>Rec and Mix Engineer</p>
+            </div>
+          </Box>
+
+          <Box
+            cursor="pointer"
+            className="content"
+            onClick={() =>
+              showModal("https://www.youtube.com/watch?v=iMMngdp2Gto")
+            }
+          >
+            <div className="content-overlay"></div>
+            <Image
+              objectFit="cover"
+              className="content-image"
+              src="/OcchialiDaVista.png"
+            />
+            <div className="content-details fadeIn-left">
+              <h3>Occhiali da vista - Claudio Melis</h3>
+              <p>Rec and Mix Engineer</p>
+            </div>
+          </Box>
+
           <Box
             cursor="pointer"
             className="content"
@@ -38,30 +76,8 @@ const Works = () => {
               src="/GinTonic.png"
             />
             <div className="content-details fadeIn-left">
-              <h3>SAVING SERAFINO - Gin Tonic</h3>
-              <p>Recording Engineeer</p>
-            </div>
-          </Box>
-
-          <Box
-            cursor="pointer"
-            className="content"
-            onClick={() =>
-              showModal("https://www.youtube.com/watch?v=fZJ1nAD9we4")
-            }
-          >
-            <div className="content-overlay"></div>
-            <Image
-              minH="300px"
-              maxH="100%"
-              minW="100%"
-              objectFit="cover"
-              className="content-image"
-              src="/Sranovski.png"
-            />
-            <div className="content-details fadeIn-left">
-              <h3>STANOVSKY - Greece x Athen (Cover)</h3>
-              <p>Mixing and Post producing</p>
+              <h3>Saving Serafino - Gin Tonic</h3>
+              <p>Rec Engineer</p>
             </div>
           </Box>
 
@@ -83,7 +99,29 @@ const Works = () => {
             />
             <div className="content-details fadeIn-left">
               <h3>Pier Paolo Bertoli - Brucia</h3>
-              <p>Recording Engineeer</p>
+              <p>Mixing and Post Producing</p>
+            </div>
+          </Box>
+
+          <Box
+            cursor="pointer"
+            className="content"
+            onClick={() =>
+              showModal("https://www.youtube.com/watch?v=fZJ1nAD9we4")
+            }
+          >
+            <div className="content-overlay"></div>
+            <Image
+              minH="300px"
+              maxH="100%"
+              minW="100%"
+              objectFit="cover"
+              className="content-image"
+              src="/Sranovski.png"
+            />
+            <div className="content-details fadeIn-left">
+              <h3>Stanovsky - Greece x Athen (Cover)</h3>
+              <p>Rec Engineer</p>
             </div>
           </Box>
         </Grid>
