@@ -28,6 +28,25 @@ const Works = () => {
             cursor="pointer"
             className="content"
             onClick={() =>
+              showModal("https://www.youtube.com/watch?v=GVOienO5EMI&ab_channel=Jamila%26TheOtherHeroes-Topic")
+            }
+          >
+            <div className="content-overlay"></div>
+            <Image
+              objectFit="cover"
+              className="content-image"
+              src="/Yaba.png"
+            />
+            <div className="content-details fadeIn-left">
+              <h3>YABA يابا</h3>
+              <p>Rec and Mix Engineer</p>
+            </div>
+          </Box>
+
+          <Box
+            cursor="pointer"
+            className="content"
+            onClick={() =>
               showModal("https://www.youtube.com/watch?v=iMMngdp2Gto")
             }
           >

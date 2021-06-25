@@ -9,7 +9,7 @@ const Header = () => {
   const { changeLang, lang } = langContext;
 
   return (
-    <Box minH="100vh" className="bg">
+    <Box className="bg">
       <Box position="relative" background="white" py="10">
         <Container maxW="container.xl">
           <Flex justifyContent="space-between" alignItems="center">
