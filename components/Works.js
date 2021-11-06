@@ -18,12 +18,49 @@ const Works = () => {
       <Box>
         <Grid
           templateColumns={{
-            // lg: "repeat(3, 1fr)",
             md: "repeat(2, 1fr)",
             sm: "repeat(1, 1fr)",
           }}
           gap={6}
         >
+          <Box
+            cursor="pointer"
+            className="content"
+            onClick={() =>
+              showModal("https://www.youtube.com/watch?v=v8N5GdacBFo&ab_channel=SvenHelbig")
+            }
+          >
+            <div className="content-overlay"></div>
+            <Image
+              objectFit="cover"
+              className="content-image"
+              src="/Vision.png"
+            />
+            <div className="content-details fadeIn-left">
+              <h3>Vision - Sven Helbig</h3>
+              <p>Immersive Mixing Engineer</p>
+            </div>
+          </Box>
+
+          <Box
+            cursor="pointer"
+            className="content"
+            onClick={() =>
+              showModal("https://www.youtube.com/watch?v=MgS-Lq_pUGk&ab_channel=LudovicoEinaudiVEVO")
+            }
+          >
+            <div className="content-overlay"></div>
+            <Image
+              objectFit="cover"
+              className="content-image"
+              src="/Luminous.png"
+            />
+            <div className="content-details fadeIn-left">
+              <h3>Luminous - Ludovico Einaudi</h3>
+              <p>Assistant Mastering Engineer</p>
+            </div>
+          </Box>
+
           <Box
             cursor="pointer"
             className="content"
