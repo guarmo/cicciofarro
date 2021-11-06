@@ -19,10 +19,7 @@ import LangContext from "../context/lang/langContext";
 
 import {
   AiOutlineInstagram,
-  AiOutlineFacebook,
-  AiOutlineLinkedin,
 } from "react-icons/ai";
-import { RiSoundcloudLine } from "react-icons/ri";
 import { IoIosSend } from "react-icons/io";
 
 import emailjs from "emailjs-com";
@@ -183,30 +180,6 @@ const Contacts = () => {
                 h={12}
                 as={AiOutlineInstagram}
               />
-            </Link>
-            <Link
-              transition="all .2s ease-in-out"
-              _hover={{ transform: "scale(1.2)", color: "gray" }}
-              href="https://www.facebook.com/Ciccio-Fà-nk-333175224140553 "
-              isExternal
-            >
-              <Icon w={12} h={12} as={AiOutlineFacebook} />
-            </Link>
-            <Link
-              transition="all .2s ease-in-out"
-              _hover={{ transform: "scale(1.2)", color: "gray" }}
-              href="https://www.linkedin.com/in/francesco-farro-b4b04b79/ "
-              isExternal
-            >
-              <Icon w={12} h={12} as={AiOutlineLinkedin} />
-            </Link>
-            <Link
-              transition="all .2s ease-in-out"
-              _hover={{ transform: "scale(1.2)", color: "gray" }}
-              href="https://soundcloud.com/neom-2"
-              isExternal
-            >
-              <Icon w={12} h={12} as={RiSoundcloudLine} />
             </Link>
           </HStack>
         </Flex>
