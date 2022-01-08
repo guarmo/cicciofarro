@@ -41,7 +41,7 @@ const Bio = () => {
               coppia di Technics sl 1210. Da quel momento,lo studio della
               musica, la partecipazione assidua a progetti musicali, l’accumulo
               seriale di dischi (con conseguente curiosità di come venissero
-              fatti) e l’intensità nel produrre beatsgli hanno permesso di
+              fatti) e l’intensità nel produrre beats gli hanno permesso di
               conseguire all’età di 24 anni il diploma in “Music Production and
               Sound Engineering” presso l’{" "}
               <Link
@@ -56,7 +56,7 @@ const Bio = () => {
               Stereo/Atmos,Mastering Engineer) entrando stabilmente in contatto
               con Inegneri, Musicisti e Produzioni di elevato profilo.
               Parallelamente da freelancer, in veste di Recording/Mixing
-              Engineer e Producer,collabora con diversi Gruppi, Labels e
+              Engineer e Producer, collabora con diversi Gruppi, Labels e
               Producers.
             </Text>
           ) : (
@@ -68,7 +68,7 @@ const Bio = () => {
               >
                 Francesco Farro
               </Link>
-              , aka Ciccio. Producer, Sound Engineer(Mix and Mastering) and
+              , aka Ciccio. Producer, Sound Engineer (Mix and Mastering) and
               thirsty Record Collector. Everything started when his Brother gave
               him for his 15th birthday a pair of Technics sl 1210. Since that
               day, the music studies, the assiduous collaboration to several
