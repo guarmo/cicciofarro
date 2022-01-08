@@ -23,7 +23,7 @@ const Bio = () => {
             mb={{ md: 0, sm: 10 }}
             w="450px"
             h="auto"
-            src="https://images.pexels.com/photos/7505457/pexels-photo-7505457.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            src="https://res.cloudinary.com/dqqhf85vd/image/upload/v1641631347/ciccio-bio_niz29l.jpg"
             mb={{ md: "0", base: "4" }}
           />
           {lang === "ita" ? (
@@ -35,14 +35,13 @@ const Bio = () => {
               >
                 Francesco Farro
               </Link>
-              , (quasi) per tutti Ciccio. Producer, Sound Engineer, Beat maker
-              ed avido collezionista, classe 94’. Tutto è cominciato quando suo
-              fratello (Peppe) gli ha regalato per il suo quindicesimo
-              compleanno una coppia di Technics sl 1210. Da quel momento lo
-              studio della musica, la partecipazione assidua a progetti
-              musicali, l’accumulo seriale di dischi (con conseguente curiosità
-              di come venissero fatti) e l’intensità nel produrre beats vincono
-              sugli studi universitari intrapresi (Sociologia) così da far
+              , (quasi) per tutti Ciccio. Producer, Sound Engineer(Mix and
+              Mastering) ed avido collezionista. Tutto è cominciato quando suo
+              fratello gli ha regalato per il suo quindicesimo compleanno una
+              coppia di Technics sl 1210. Da quel momento,lo studio della
+              musica, la partecipazione assidua a progetti musicali, l’accumulo
+              seriale di dischi (con conseguente curiosità di come venissero
+              fatti) e l’intensità nel produrre beats gli hanno permesso di
               conseguire all’età di 24 anni il diploma in “Music Production and
               Sound Engineering” presso l’{" "}
               <Link
@@ -52,14 +51,13 @@ const Bio = () => {
               >
                 Abbey Road Institute Berlin
               </Link>
-              . Subito dopo gli studi, Ciccio si ritrova ad intraprendere
-              diverse Internships e a ricoprire diversi ruoli (Rec Eng, Mix
-              assistant, Producer, Arranger etc.) in diversi studi d’Europa
-              (Bewake Berlin, Schwerkraftmusik, Laboratori Testone Milan (con Tommaso Colliva) etc.)
-              entrando in contatto con Inegneri, Musicisti e Produzioni di
-              elevato profilo. Parallelamente da freelancer e in veste di
-              Recording/Mixing Engineer e Producer collabora con diversi gruppi,
-              persone e labels.
+              . Immediatamentedopo gli studi, Ciccio si è ritrovato in diversi
+              studi d’Europa a ricoprire diversi ruoli (Rec Eng, Mix Engineer
+              Stereo/Atmos,Mastering Engineer) entrando stabilmente in contatto
+              con Inegneri, Musicisti e Produzioni di elevato profilo.
+              Parallelamente da freelancer, in veste di Recording/Mixing
+              Engineer e Producer, collabora con diversi Gruppi, Labels e
+              Producers.
             </Text>
           ) : (
             <Text>
@@ -70,15 +68,14 @@ const Bio = () => {
               >
                 Francesco Farro
               </Link>
-              , aka Ciccio. Producer, Sound Engineer, Beat maker and Thirsty
-              Record Collector born 94’. Everything started when his Brother
-              (Peppe) gave him for his 15th birthday a pair of Technics sl 1210.
-              Since that day, the music studies, the assiduous collaboration to
-              several music projects, the intense Records’s stockpile (with
-              curiosity how those would have been made) and the intensity of
-              beats produced won on the undertaken University studies
-              (Sociology) obtaining at the age of 24 years old a Diploma in
-              ““Music Production and Sound Engineering” at the{" "}
+              , aka Ciccio. Producer, Sound Engineer (Mix and Mastering) and
+              thirsty Record Collector. Everything started when his Brother gave
+              him for his 15th birthday a pair of Technics sl 1210. Since that
+              day, the music studies, the assiduous collaboration to several
+              music projects, the intense Records’s stockpile (with a curiosity
+              on how those would have been made) and the intensity of beats
+              produced made possible for him to obtaina Diploma in “Music
+              Production and Sound Engineering” at the{" "}
               <Link
                 fontWeight="800"
                 href="https://abbeyroadinstitute.de"
@@ -86,13 +83,12 @@ const Bio = () => {
               >
                 Abbey Road Institute Berlin
               </Link>
-              . Right after his studies, Ciccio takes on various Internships and
-              works as (Rec Eng, Mix assistant, Producer, Arranger etc.) in
-              different studios across Europe (Bewake Berlin, Schwerkraftmusik,
-              Laboratori Testone Milan (with Tommaso Colliva) etc.) giving him the chance to get in
-              touch with high-profile Engineers, Musicians and Productions . At
-              the same time as a freelancer, Recording/Mixing Engineer, and
-              Producer collaborates on various projects, groups, and Labels.
+              . Right after his studies, Ciccio had the chance to work (Rec Eng,
+              Mix Engineer Stereo/Atmos, Mastering Engineer) in different
+              studios across Europe and being constantly in touch with
+              high-profile Engineers, Musicians and Productions . Concurrently
+              as a freelancer, Recording/Mixing Engineer, and Producer
+              collaborates with various Producers, Bands and Labels.
             </Text>
           )}
         </Flex>
