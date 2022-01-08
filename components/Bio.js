@@ -23,7 +23,7 @@ const Bio = () => {
             mb={{ md: 0, sm: 10 }}
             w="450px"
             h="auto"
-            src="https://images.pexels.com/photos/7505457/pexels-photo-7505457.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            src="https://res.cloudinary.com/dqqhf85vd/image/upload/v1641631347/ciccio-bio_niz29l.jpg"
             mb={{ md: "0", base: "4" }}
           />
           {lang === "ita" ? (

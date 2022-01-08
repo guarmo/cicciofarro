@@ -27,14 +27,16 @@ const Works = () => {
             cursor="pointer"
             className="content"
             onClick={() =>
-              showModal("https://www.youtube.com/watch?v=v8N5GdacBFo&ab_channel=SvenHelbig")
+              showModal(
+                "https://www.youtube.com/watch?v=v8N5GdacBFo&ab_channel=SvenHelbig"
+              )
             }
           >
             <div className="content-overlay"></div>
             <Image
               objectFit="cover"
               className="content-image"
-              src="/Vision.png"
+              src="https://res.cloudinary.com/dqqhf85vd/image/upload/v1641629951/Vision_jdypmk.png"
             />
             <div className="content-details fadeIn-left">
               <h3>Vision - Sven Helbig</h3>
@@ -46,14 +48,16 @@ const Works = () => {
             cursor="pointer"
             className="content"
             onClick={() =>
-              showModal("https://www.youtube.com/watch?v=MgS-Lq_pUGk&ab_channel=LudovicoEinaudiVEVO")
+              showModal(
+                "https://www.youtube.com/watch?v=MgS-Lq_pUGk&ab_channel=LudovicoEinaudiVEVO"
+              )
             }
           >
             <div className="content-overlay"></div>
             <Image
               objectFit="cover"
               className="content-image"
-              src="/Luminous.png"
+              src="https://res.cloudinary.com/dqqhf85vd/image/upload/v1641629945/Luminous_l6rsju.png"
             />
             <div className="content-details fadeIn-left">
               <h3>Luminous - Ludovico Einaudi</h3>
@@ -65,14 +69,16 @@ const Works = () => {
             cursor="pointer"
             className="content"
             onClick={() =>
-              showModal("https://www.youtube.com/watch?v=GVOienO5EMI&ab_channel=Jamila%26TheOtherHeroes-Topic")
+              showModal(
+                "https://www.youtube.com/watch?v=GVOienO5EMI&ab_channel=Jamila%26TheOtherHeroes-Topic"
+              )
             }
           >
             <div className="content-overlay"></div>
             <Image
               objectFit="cover"
               className="content-image"
-              src="/Yaba.png"
+              src="https://res.cloudinary.com/dqqhf85vd/image/upload/v1641629414/Yaba_llb5sz.png"
             />
             <div className="content-details fadeIn-left">
               <h3>YABA يابا</h3>
@@ -91,7 +97,7 @@ const Works = () => {
             <Image
               objectFit="cover"
               className="content-image"
-              src="/OcchialiDaVista.png"
+              src="https://res.cloudinary.com/dqqhf85vd/image/upload/v1641629432/OcchialiDaVista_ei5whg.png"
             />
             <div className="content-details fadeIn-left">
               <h3>Occhiali da vista - Claudio Melis</h3>
@@ -110,7 +116,7 @@ const Works = () => {
             <Image
               objectFit="cover"
               className="content-image"
-              src="/GinTonic.png"
+              src="https://res.cloudinary.com/dqqhf85vd/image/upload/v1641629445/GinTonic_m9ea1r.png"
             />
             <div className="content-details fadeIn-left">
               <h3>Saving Serafino - Gin Tonic</h3>
@@ -132,7 +138,7 @@ const Works = () => {
               minW="100%"
               objectFit="cover"
               className="content-image"
-              src="/Bertoli.png"
+              src="https://res.cloudinary.com/dqqhf85vd/image/upload/v1641629457/Bertoli_brmlr2.png"
             />
             <div className="content-details fadeIn-left">
               <h3>Pier Paolo Bertoli - Brucia</h3>
@@ -154,7 +160,7 @@ const Works = () => {
               minW="100%"
               objectFit="cover"
               className="content-image"
-              src="/Sranovski.png"
+              src="https://res.cloudinary.com/dqqhf85vd/image/upload/v1641629425/Sranovski_e59htg.png"
             />
             <div className="content-details fadeIn-left">
               <h3>Stanovsky - Greece x Athen (Cover)</h3>
